@@ -6,7 +6,7 @@ int main()
         printf(" Nhap n= ");
         scanf("%d",&n);
 
-    for(i = 1;i <= n;i++)
+    for(i = 1;i <= n;i+=2)
     {
         S +=1/(float)i;
     }
